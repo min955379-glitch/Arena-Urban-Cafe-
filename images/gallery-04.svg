@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-label="Steak placeholder">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#EFE3D0"/>
+      <stop offset="1" stop-color="#E2D0B6"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#g)"/>
+  <rect x="24" y="24" width="1152" height="852" fill="none" stroke="#C9B393" stroke-width="3"/>
+  <g stroke="#A98F6C" stroke-width="10" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.85">
+    <circle cx="600" cy="360" r="110"/>
+    <circle cx="600" cy="360" r="58"/>
+    <path d="M430 520 h340"/>
+    <path d="M486 562 h228"/>
+  </g>
+  <text x="600" y="680" font-family="Georgia, 'Times New Roman', serif" font-size="48" font-weight="700" fill="#6B5A4E" text-anchor="middle" letter-spacing="5">STEAK</text>
+  <text x="600" y="740" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#8A745D" text-anchor="middle" letter-spacing="2">Replace with owner photo</text>
+</svg>
