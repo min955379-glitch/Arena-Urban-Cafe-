@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- TODO: replace the placeholder canonical URL with the real domain before launch. -->
+  <title>Urban Cafe &amp; Restaurant | Menu, Steaks &amp; Cafe in Mandian, Abbottabad</title>
+  <meta name="description" content="Urban Cafe &amp; Restaurant, Jadoon Plaza Phase 2, Mandian, Abbottabad. Browse the Urban Cafe Abbottabad menu: steaks, pasta, burgers, pizza, Chinese and shakes. A cafe in Mandian open late. Order on WhatsApp.">
+  <link rel="canonical" href="https://urbancafe-abbottabad.netlify.app/">
+  <meta name="theme-color" content="#FAF3E9">
+
+  <!-- Open Graph. TODO: update og:url and og:image when the domain and real photos exist. -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Urban Cafe &amp; Restaurant | Mandian, Abbottabad">
+  <meta property="og:description" content="A place to enjoy food. Steaks, pastas, coffee and shakes in Jadoon Plaza Phase 2, Mandian, Abbottabad. Browse the menu and order on WhatsApp.">
+  <meta property="og:url" content="https://urbancafe-abbottabad.netlify.app/">
+  <meta property="og:site_name" content="Urban Cafe &amp; Restaurant">
+  <meta property="og:locale" content="en_PK">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Urban Cafe &amp; Restaurant | Mandian, Abbottabad">
+  <meta name="twitter:description" content="A place to enjoy food. Menu, directions and WhatsApp ordering for Urban Cafe &amp; Restaurant, Jadoon Plaza Phase 2, Mandian.">
+
+  <!-- Favicon: text mark on cream, no image assets required. -->
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23FAF3E9'/%3E%3Ctext x='32' y='44' font-family='Georgia,serif' font-size='38' font-weight='700' fill='%232C221C' text-anchor='middle'%3EU%3C/text%3E%3C/svg%3E">
+
+  <!-- Fonts: preconnect + only the weights used, font-display swap. See DESIGN.md section 4. -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600;0,9..144,700;1,9..144,600&family=Karla:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Restaurant JSON-LD. Aggregate ratings are the sourced public numbers only (Google 4.1, 500+ reviews). TODO: confirm hours and add geo/hasMap when the owner confirms the exact map pin. -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "Urban Cafe & Restaurant",
+    "url": "https://urbancafe-abbottabad.netlify.app/",
+    "description": "Family-friendly cafe and restaurant in Jadoon Plaza Phase 2, Mandian, Abbottabad. Steaks, pastas, burgers, pizza, Chinese, coffee and shakes, open late.",
+    "servesCuisine": ["Pakistani", "Chinese", "Continental", "Fast Food", "Cafe"],
+    "priceRange": "$$$",
+    "telephone": ["+92 313 9755550", "+92 310 1444111"],
+    "email": "urbancafe555@gmail.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Jadoon Plaza Phase 2, Mandian",
+      "addressLocality": "Abbottabad",
+      "addressRegion": "Khyber Pakhtunkhwa",
+      "postalCode": "22020",
+      "addressCountry": "PK"
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Saturday", "Sunday"],
+        "opens": "12:30",
+        "closes": "23:15"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Friday",
+        "opens": "14:30",
+        "closes": "23:15"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/TheUrbanCafeandRestaurant",
+      "https://www.tiktok.com/@urban.cafe.restaurant"
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.1",
+      "reviewCount": "500",
+      "bestRating": "5"
+    }
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ===== Icon sprite: one inline SVG set, 24px box, 2px stroke, currentColor ===== -->
+  <svg class="sprite" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <symbol id="i-phone" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></symbol>
+      <symbol id="i-whatsapp" viewBox="0 0 24 24"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/><path d="M9.2 8.8c.3-.7.7-.7 1-.7h.8c.3 0 .6 0 .9.6l1 2.3c.1.3.1.5 0 .8l-.6.8c-.1.2-.2.4 0 .7a7.2 7.2 0 0 0 2.8 2.4c.3.1.5.1.7-.1l.7-.8c.2-.2.4-.3.7-.2l2.2 1c.3.1.5.3.5.6v.8c0 .5-.4 1.2-1.3 1.5-1.1.4-2.5.2-4.6-.9a11 11 0 0 1-3.9-3.9c-.9-1.7-1-2.9-.7-3.9.2-.6.5-.9.6-1.1z"/></symbol>
+      <symbol id="i-map-pin" viewBox="0 0 24 24"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></symbol>
+      <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></symbol>
+      <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></symbol>
+      <symbol id="i-bag" viewBox="0 0 24 24"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></symbol>
+      <symbol id="i-plus" viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></symbol>
+      <symbol id="i-minus" viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/></symbol>
+      <symbol id="i-x" viewBox="0 0 24 24"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></symbol>
+      <symbol id="i-menu" viewBox="0 0 24 24"><line x1="4" y1="6" x2="20" y2="6"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="18" x2="20" y2="18"/></symbol>
+      <symbol id="i-star" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></symbol>
+      <symbol id="i-calendar" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></symbol>
+      <symbol id="i-users" viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></symbol>
+      <symbol id="i-navigation" viewBox="0 0 24 24"><polygon points="3 11 22 2 13 21 11 13 3 11"/></symbol>
+      <symbol id="i-mail" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><polyline points="22 6 12 13 2 6"/></symbol>
+      <symbol id="i-facebook" viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></symbol>
+      <symbol id="i-tiktok" viewBox="0 0 24 24"><path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"/></symbol>
+      <symbol id="i-instagram" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><line x1="17.5" y1="6.5" x2="17.5" y2="6.5"/></symbol>
+      <symbol id="i-utensils" viewBox="0 0 24 24"><path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2"/><path d="M7 2v20"/><path d="M21 15V2a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3zm0 0v7"/></symbol>
+      <symbol id="i-heart" viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></symbol>
+      <symbol id="i-moon" viewBox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></symbol>
+      <symbol id="i-chevron-left" viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6"/></symbol>
+      <symbol id="i-chevron-right" viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></symbol>
+      <symbol id="i-refresh" viewBox="0 0 24 24"><polyline points="23 4 23 10 17 10"/><path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"/></symbol>
+      <symbol id="i-external" viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></symbol>
+      <symbol id="i-check" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></symbol>
+    </defs>
+  </svg>
+
+  <!-- ===== Sticky header ===== -->
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <!-- TODO: replace the text wordmark with the owner's logo file once confirmed. -->
+      <a class="wordmark" href="#top" aria-label="Urban Cafe and Restaurant, home">
+        <span class="wordmark-main">Urban</span>
+        <span class="wordmark-sub">Cafe &amp; Restaurant</span>
+      </a>
+
+      <nav class="site-nav" id="site-nav" aria-label="Primary">
+        <ul>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#birthdays">Birthdays</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="#location">Location</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <button class="cart-button" id="cart-button" type="button" aria-label="Open order cart" aria-haspopup="dialog">
+          <svg class="icon" aria-hidden="true"><use href="#i-bag"/></svg>
+          <span class="cart-count" id="cart-count" aria-hidden="true">0</span>
+        </button>
+        <a class="btn btn-primary header-wa" data-whatsapp-general href="#" target="_blank" rel="noopener">
+          <svg class="icon" aria-hidden="true"><use href="#i-whatsapp"/></svg>
+          <span>Order on WhatsApp</span>
+        </a>
+        <button class="icon-button nav-toggle" id="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+          <svg class="icon" aria-hidden="true"><use href="#i-menu"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile menu dialog -->
+  <div class="mobile-menu" id="mobile-menu" role="dialog" aria-modal="true" aria-label="Site menu" hidden>
+    <div class="mobile-menu-top">
+      <span class="mobile-menu-title">Menu</span>
+      <button class="icon-button" id="nav-close" type="button" aria-label="Close menu">
+        <svg class="icon" aria-hidden="true"><use href="#i-x"/></svg>
+      </button>
+    </div>
+    <nav aria-label="Mobile">
+      <ul>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#birthdays">Birthdays</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#location">Location</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <a class="btn btn-primary btn-block" data-whatsapp-general href="#" target="_blank" rel="noopener">
+      <svg class="icon" aria-hidden="true"><use href="#i-whatsapp"/></svg>
+      <span>Order on WhatsApp</span>
+    </a>
+    <a class="mobile-menu-phone" data-phone-link="1" href="#">
+      <svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg>
+      <span data-phone-text="1">+92 313 9755550</span>
+    </a>
+  </div>
+  <div class="scrim" id="scrim" hidden></div>
+
+  <main id="main">
+    <!-- ===== Hero ===== -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container hero-inner">
+        <p class="eyebrow">
+          <svg class="icon icon-sm" aria-hidden="true"><use href="#i-map-pin"/></svg>
+          Jadoon Plaza Phase 2, Mandian, Abbottabad
+        </p>
+        <h1 id="hero-title">Steaks, pastas, coffee and shakes, <em>served late.</em></h1>
+        <p class="hero-tagline">A place to enjoy food.</p>
+        <!-- TODO: confirm opening hours with the owner (source: project brief; third-party listings differ). -->
+        <p class="hero-hours">
+          <svg class="icon icon-sm" aria-hidden="true"><use href="#i-clock"/></svg>
+          <span data-hours-line>Open daily from 12:30 pm. Friday from 2:30 pm.</span>
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-accent" href="#menu">View Menu</a>
+          <a class="btn btn-primary" data-whatsapp-general href="#" target="_blank" rel="noopener">
+            <svg class="icon" aria-hidden="true"><use href="#i-whatsapp"/></svg>
+            <span>Order on WhatsApp</span>
+          </a>
+        </div>
+        <ul class="hero-badges" aria-label="At a glance">
+          <li><svg class="icon icon-sm" aria-hidden="true"><use href="#i-heart"/></svg>Family-friendly</li>
+          <li><svg class="icon icon-sm" aria-hidden="true"><use href="#i-utensils"/></svg>Dine-in</li>
+          <li><svg class="icon icon-sm" aria-hidden="true"><use href="#i-moon"/></svg>Open late</li>
+        </ul>
+      </div>
+      <div class="divider-ornament" aria-hidden="true"><span></span></div>
+    </section>
+
+    <!-- ===== Menu ===== -->
+    <section class="section menu-section" id="menu" aria-labelledby="menu-title">
+      <div class="container">
+        <p class="eyebrow eyebrow-center">Our menu</p>
+        <h2 class="section-title section-title-paprika" id="menu-title">Made fresh, served generous</h2>
+        <p class="section-lede">Browse the dishes our guests talk about. Prices are being confirmed with the restaurant and will appear here soon.</p>
+
+        <div class="menu-toolbar">
+          <div class="menu-tabs-wrap">
+            <div class="menu-tabs" id="menu-tabs" role="tablist" aria-label="Menu categories"></div>
+          </div>
+          <div class="menu-search">
+            <svg class="icon icon-sm search-icon" aria-hidden="true"><use href="#i-search"/></svg>
+            <label class="sr-only" for="menu-search-input">Search the menu</label>
+            <input type="search" id="menu-search-input" placeholder="Search dishes, for example pasta" autocomplete="off">
+            <button class="icon-button search-clear" id="search-clear" type="button" aria-label="Clear search" hidden>
+              <svg class="icon icon-sm" aria-hidden="true"><use href="#i-x"/></svg>
+            </button>
+          </div>
+        </div>
+
+        <p class="sr-only" role="status" aria-live="polite" id="menu-status"></p>
+
+        <div id="menu-groups"></div>
+
+        <!-- Fallback if menu.json fails to load. -->
+        <div class="menu-fallback" id="menu-fallback" hidden>
+          <svg class="icon fallback-icon" aria-hidden="true"><use href="#i-utensils"/></svg>
+          <h3>We could not load the menu right now</h3>
+          <p>Please call us or send a message on WhatsApp and we will share the full menu with you.</p>
+          <div class="fallback-actions">
+            <a class="btn btn-primary" data-phone-link="1" href="#">
+              <svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg>
+              <span>Call us</span>
+            </a>
+            <a class="btn btn-accent" data-whatsapp-general href="#" target="_blank" rel="noopener">
+              <svg class="icon" aria-hidden="true"><use href="#i-whatsapp"/></svg>
+              <span>WhatsApp us</span>
+            </a>
+            <button class="btn btn-secondary" id="menu-retry" type="button">
+              <svg class="icon" aria-hidden="true"><use href="#i-refresh"/></svg>
+              <span>Try again</span>
+            </button>
+          </div>
+        </div>
+
+        <p class="menu-note">All prices shown as "Rs. ---" are placeholders while the restaurant confirms the current menu. <!-- TODO: replace with real prices from the owner --></p>
+      </div>
+    </section>
+
+    <!-- ===== About ===== -->
+    <section class="section about-section" id="about" aria-labelledby="about-title">
+      <div class="container about-inner">
+        <p class="eyebrow eyebrow-center">About us</p>
+        <h2 class="section-title section-title-olive" id="about-title">A place to enjoy food</h2>
+        <div class="about-lines">
+          <p>A family-friendly environment in the heart of Jadoon Plaza Phase 2, Mandian.</p>
+          <p>Known for steaks, pastas, coffee and shakes, served until late through the week.</p>
+          <p>Dine in with us, or send your order on WhatsApp for pickup and delivery.</p>
+        </div>
+        <ul class="about-highlights">
+          <li><svg class="icon" aria-hidden="true"><use href="#i-heart"/></svg><span>Family environment</span></li>
+          <li><svg class="icon" aria-hidden="true"><use href="#i-utensils"/></svg><span>Steaks, pastas and more</span></li>
+          <li><svg class="icon" aria-hidden="true"><use href="#i-clock"/></svg><span>Open late, seven days</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== Gallery ===== -->
+    <section class="section gallery-section" id="gallery" aria-labelledby="gallery-title">
+      <div class="container">
+        <p class="eyebrow eyebrow-center">Gallery</p>
+        <h2 class="section-title section-title-olive" id="gallery-title">Inside Urban Cafe</h2>
+        <p class="section-lede">Placeholder tiles for now. Real photos from the restaurant will replace these before launch. <!-- TODO: owner photos --></p>
+        <div class="gallery-grid" id="gallery-grid">
+          <!-- TODO: replace each tile with the owner's photo and rewrite alt text. -->
+          <button class="gallery-item" type="button" data-gallery-index="0">
+            <img src="images/gallery-01.svg" alt="Placeholder for interior photo of the restaurant" loading="lazy" width="1200" height="900">
+            <span class="gallery-caption">Interior</span>
+          </button>
+          <button class="gallery-item" type="button" data-gallery-index="1">
+            <img src="images/gallery-02.svg" alt="Placeholder for seating area photo" loading="lazy" width="1200" height="900">
+            <span class="gallery-caption">Seating</span>
+          </button>
+          <button class="gallery-item" type="button" data-gallery-index="2">
+            <img src="images/gallery-03.svg" alt="Placeholder for pasta dish photo" loading="lazy" width="1200" height="900">
+            <span class="gallery-caption">Pasta</span>
+          </button>
+          <button class="gallery-item" type="button" data-gallery-index="3">
+            <img src="images/gallery-04.svg" alt="Placeholder for steak dish photo" loading="lazy" width="1200" height="900">
+            <span class="gallery-caption">Steak</span>
+          </button>
+          <button class="gallery-item" type="button" data-gallery-index="4">
+            <img src="images/gallery-05.svg" alt="Placeholder for burger dish photo" loading="lazy" width="1200" height="900">
+            <span class="gallery-caption">Burgers</span>
+          </button>
+          <button class="gallery-item" type="button" data-gallery-index="5">
+            <img src="images/gallery-06.svg" alt="Placeholder for birthday celebration photo" loading="lazy" width="1200" height="900">
+            <span class="gallery-caption">Birthday setups</span>
+          </button>
+          <button class="gallery-item" type="button" data-gallery-index="6">
+            <img src="images/gallery-07.svg" alt="Placeholder for coffee and shakes photo" loading="lazy" width="1200" height="900">
+            <span class="gallery-caption">Coffee &amp; shakes</span>
+          </button>
+          <button class="gallery-item" type="button" data-gallery-index="7">
+            <img src="images/gallery-08.svg" alt="Placeholder for restaurant exterior photo" loading="lazy" width="1200" height="900">
+            <span class="gallery-caption">Jadoon Plaza front</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Birthday and event booking ===== -->
+    <section class="section birthday-section" id="birthdays" aria-labelledby="birthday-title">
+      <div class="container birthday-inner">
+        <div class="birthday-copy">
+          <p class="eyebrow">Celebrate with us</p>
+          <h2 class="section-title section-title-paprika" id="birthday-title">Birthday and event bookings</h2>
+          <p class="section-lede">Planning a birthday or a small event? Send us the details and our team will confirm the arrangement on WhatsApp.</p>
+          <!-- TODO: add packages and pricing once the owner confirms them. Until then this disclaimer stays. -->
+          <p class="disclaimer">Packages and pricing are confirmed by the restaurant. This form sends an enquiry, not a confirmed booking.</p>
+        </div>
+        <form class="booking-form" id="booking-form" novalidate>
+          <div class="form-row">
+            <div class="form-field">
+              <label for="book-name">Your name</label>
+              <input type="text" id="book-name" name="name" autocomplete="name" required>
+            </div>
+            <div class="form-field">
+              <label for="book-phone">Phone number</label>
+              <input type="tel" id="book-phone" name="phone" autocomplete="tel" required>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-field">
+              <label for="book-date">Date</label>
+              <input type="date" id="book-date" name="date" required>
+            </div>
+            <div class="form-field">
+              <label for="book-time">Time</label>
+              <input type="time" id="book-time" name="time" required>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-field">
+              <label for="book-guests">Guests</label>
+              <input type="number" id="book-guests" name="guests" min="1" max="200" step="1" required>
+            </div>
+            <div class="form-field">
+              <label for="book-notes">Notes</label>
+              <input type="text" id="book-notes" name="notes" placeholder="Cake, decoration, seating needs">
+            </div>
+          </div>
+          <p class="form-error" id="booking-error" role="alert" aria-live="polite"></p>
+          <button class="btn btn-accent btn-block" type="submit">
+            <svg class="icon" aria-hidden="true"><use href="#i-whatsapp"/></svg>
+            <span>Send booking enquiry</span>
+          </button>
+          <p class="form-footnote">
+            <svg class="icon icon-sm" aria-hidden="true"><use href="#i-calendar"/></svg>
+            The form opens WhatsApp with your details filled in.
+          </p>
+        </form>
+      </div>
+    </section>
+
+    <!-- ===== Reviews (aggregate numbers only, no quotes) ===== -->
+    <section class="section reviews-section" id="reviews" aria-labelledby="reviews-title">
+      <div class="container">
+        <p class="eyebrow eyebrow-center">Guest feedback</p>
+        <h2 class="section-title section-title-olive" id="reviews-title">Rated by hundreds of guests</h2>
+        <p class="section-lede">Public scores from the platforms our guests use. Read the full reviews on each platform.</p>
+        <!-- Numbers sourced from public listings per the project brief (2026). TODO: refresh numbers before launch. -->
+        <ul class="review-cards">
+          <li class="review-card">
+            <svg class="icon review-icon" aria-hidden="true"><use href="#i-star"/></svg>
+            <p class="review-score">4.1<span>/ 5</span></p>
+            <p class="review-platform">Google</p>
+            <p class="review-count">500+ reviews</p>
+            <a class="review-link" href="https://www.google.com/maps/search/?api=1&amp;query=Urban+Cafe+%26+Restaurant+Abbottabad" target="_blank" rel="noopener">
+              Read on Google <svg class="icon icon-sm" aria-hidden="true"><use href="#i-external"/></svg>
+            </a>
+          </li>
+          <li class="review-card">
+            <svg class="icon review-icon" aria-hidden="true"><use href="#i-star"/></svg>
+            <p class="review-score">4.8<span>/ 5</span></p>
+            <p class="review-platform">Foodpanda</p>
+            <p class="review-count">500+ reviews</p>
+            <!-- TODO: replace with the restaurant's exact Foodpanda page URL. -->
+            <a class="review-link" href="https://www.foodpanda.pk/" target="_blank" rel="noopener">
+              Read on Foodpanda <svg class="icon icon-sm" aria-hidden="true"><use href="#i-external"/></svg>
+            </a>
+          </li>
+          <li class="review-card">
+            <svg class="icon review-icon" aria-hidden="true"><use href="#i-heart"/></svg>
+            <p class="review-score">94%<span> recommend</span></p>
+            <p class="review-platform">Facebook</p>
+            <p class="review-count">550 reviews</p>
+            <a class="review-link" href="https://www.facebook.com/TheUrbanCafeandRestaurant/reviews" target="_blank" rel="noopener">
+              Read on Facebook <svg class="icon icon-sm" aria-hidden="true"><use href="#i-external"/></svg>
+            </a>
+          </li>
+        </ul>
+        <div class="reviews-cta">
+          <a class="btn btn-secondary" href="https://www.google.com/maps/search/?api=1&amp;query=Urban+Cafe+%26+Restaurant+Abbottabad" target="_blank" rel="noopener">
+            <span>Read more reviews</span>
+            <svg class="icon" aria-hidden="true"><use href="#i-external"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Location and hours ===== -->
+    <section class="section location-section" id="location" aria-labelledby="location-title">
+      <div class="container">
+        <p class="eyebrow eyebrow-center">Find us</p>
+        <h2 class="section-title section-title-paprika" id="location-title">Jadoon Plaza Phase 2, Mandian</h2>
+        <div class="location-grid">
+          <div class="location-map">
+            <!-- TODO: replace the text-query embed with an exact place embed (place ID or coordinates) once confirmed. -->
+            <iframe
+              title="Map showing Urban Cafe and Restaurant, Jadoon Plaza Phase 2, Mandian, Abbottabad"
+              src="https://www.google.com/maps?q=Urban%20Cafe%20%26%20Restaurant%2C%20Jadoon%20Plaza%20Phase%202%2C%20Mandian%2C%20Abbottabad&amp;output=embed"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              allowfullscreen></iframe>
+          </div>
+          <div class="location-info">
+            <div class="info-block">
+              <h3><svg class="icon icon-sm" aria-hidden="true"><use href="#i-map-pin"/></svg> Address</h3>
+              <address>Jadoon Plaza Phase 2, Mandian,<br>Abbottabad, Khyber Pakhtunkhwa</address>
+              <a class="btn btn-secondary" href="https://www.google.com/maps/dir/?api=1&amp;destination=Urban+Cafe+%26+Restaurant+Jadoon+Plaza+Phase+2+Mandian+Abbottabad" target="_blank" rel="noopener">
+                <svg class="icon" aria-hidden="true"><use href="#i-navigation"/></svg>
+                <span>Get Directions</span>
+              </a>
+            </div>
+            <div class="info-block">
+              <h3><svg class="icon icon-sm" aria-hidden="true"><use href="#i-clock"/></svg> Opening hours</h3>
+              <!-- TODO: confirm hours with the owner before launch. -->
+              <table class="hours-table">
+                <tbody>
+                  <tr><th scope="row">Monday - Thursday</th><td>12:30 pm - 11:15 pm</td></tr>
+                  <tr><th scope="row">Friday</th><td>2:30 pm - 11:15 pm</td></tr>
+                  <tr><th scope="row">Saturday - Sunday</th><td>12:30 pm - 11:15 pm</td></tr>
+                </tbody>
+              </table>
+            </div>
+            <!-- TODO: confirm parking availability with the owner, then replace or remove this note. -->
+            <p class="parking-note"><svg class="icon icon-sm" aria-hidden="true"><use href="#i-map-pin"/></svg> Parking details to be confirmed.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Contact ===== -->
+    <section class="section contact-section" id="contact" aria-labelledby="contact-title">
+      <div class="container">
+        <p class="eyebrow eyebrow-center">Contact</p>
+        <h2 class="section-title section-title-olive" id="contact-title">Talk to us</h2>
+        <p class="section-lede">Call, message or visit. We are at Jadoon Plaza Phase 2, Mandian, Abbottabad.</p>
+
+        <div class="contact-grid">
+          <a class="contact-card" data-phone-link="1" href="#">
+            <svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg>
+            <span class="contact-label">Call us</span>
+            <span class="contact-value" data-phone-text="1">+92 313 9755550</span>
+          </a>
+          <a class="contact-card" data-phone-link="2" href="#">
+            <svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg>
+            <span class="contact-label">Call us</span>
+            <span class="contact-value" data-phone-text="2">+92 310 1444111</span>
+          </a>
+          <a class="contact-card" data-email-link href="#">
+            <svg class="icon" aria-hidden="true"><use href="#i-mail"/></svg>
+            <span class="contact-label">Email</span>
+            <span class="contact-value">urbancafe555@gmail.com</span>
+          </a>
+          <a class="contact-card" data-whatsapp-general href="#" target="_blank" rel="noopener">
+            <svg class="icon" aria-hidden="true"><use href="#i-whatsapp"/></svg>
+            <span class="contact-label">WhatsApp</span>
+            <span class="contact-value">Message us</span>
+          </a>
+        </div>
+
+        <ul class="social-row" aria-label="Social media">
+          <li>
+            <a class="social-link" href="https://www.facebook.com/TheUrbanCafeandRestaurant" target="_blank" rel="noopener">
+              <svg class="icon" aria-hidden="true"><use href="#i-facebook"/></svg>
+              <span>Facebook</span>
+            </a>
+          </li>
+          <li>
+            <!-- TODO: confirm the current TikTok handle before launch. -->
+            <a class="social-link" href="https://www.tiktok.com/@urban.cafe.restaurant" target="_blank" rel="noopener">
+              <svg class="icon" aria-hidden="true"><use href="#i-tiktok"/></svg>
+              <span>TikTok</span>
+            </a>
+          </li>
+          <!-- TODO: hidden until a confirmed Instagram handle exists (possible handle seen in research: the_urban_cafe_and_restaurant). -->
+          <li hidden id="social-instagram">
+            <a class="social-link" data-instagram-link href="#" target="_blank" rel="noopener">
+              <svg class="icon" aria-hidden="true"><use href="#i-instagram"/></svg>
+              <span>Instagram</span>
+            </a>
+          </li>
+        </ul>
+
+        <!-- Printable QR panel for table menus -->
+        <div class="qr-panel" id="qr-panel">
+          <div class="qr-code">
+            <!-- TODO: regenerate this QR after the live URL is confirmed. It currently encodes the placeholder URL. -->
+            <img src="images/qr-menu.svg" alt="QR code linking to the menu page (placeholder URL)" width="160" height="160" loading="lazy">
+          </div>
+          <div class="qr-copy">
+            <h3>Table menu QR code</h3>
+            <p>Print this code for table stands. Guests scan it to open the menu on their phones.</p>
+            <p class="qr-todo">The code currently points to a placeholder URL. It will be regenerated for the live site.</p>
+            <button class="btn btn-secondary" type="button" id="print-qr">
+              <span>Print QR section</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a class="wordmark wordmark-light" href="#top" aria-label="Urban Cafe and Restaurant, back to top">
+          <span class="wordmark-main">Urban</span>
+          <span class="wordmark-sub">Cafe &amp; Restaurant</span>
+        </a>
+        <p>A place to enjoy food.</p>
+        <address>Jadoon Plaza Phase 2, Mandian, Abbottabad</address>
+      </div>
+      <nav class="footer-nav" aria-label="Footer">
+        <h3>Explore</h3>
+        <ul>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#birthdays">Birthdays</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="#location">Location</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="footer-contact">
+        <h3>Contact</h3>
+        <ul>
+          <li><a data-phone-link="1" href="#"><svg class="icon icon-sm" aria-hidden="true"><use href="#i-phone"/></svg><span data-phone-text="1">+92 313 9755550</span></a></li>
+          <li><a data-phone-link="2" href="#"><svg class="icon icon-sm" aria-hidden="true"><use href="#i-phone"/></svg><span data-phone-text="2">+92 310 1444111</span></a></li>
+          <li><a data-email-link href="#"><svg class="icon icon-sm" aria-hidden="true"><use href="#i-mail"/></svg><span>urbancafe555@gmail.com</span></a></li>
+          <li><a data-whatsapp-general href="#" target="_blank" rel="noopener"><svg class="icon icon-sm" aria-hidden="true"><use href="#i-whatsapp"/></svg><span>WhatsApp</span></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-base">
+      <p class="credit">Website by BluePeakDesign</p>
+      <p class="footer-hours" data-hours-line>Open daily from 12:30 pm. Friday from 2:30 pm.</p>
+    </div>
+  </footer>
+
+  <!-- ===== Cart drawer ===== -->
+  <aside class="cart-drawer" id="cart-drawer" role="dialog" aria-modal="true" aria-labelledby="cart-title" hidden>
+    <div class="drawer-head">
+      <h2 id="cart-title">Your order</h2>
+      <button class="icon-button" id="cart-close" type="button" aria-label="Close cart">
+        <svg class="icon" aria-hidden="true"><use href="#i-x"/></svg>
+      </button>
+    </div>
+    <div class="drawer-body">
+      <ul class="cart-lines" id="cart-lines"></ul>
+      <p class="cart-empty" id="cart-empty">Your cart is empty. Add dishes from the menu to start an order.</p>
+
+      <form class="cart-form" id="cart-form" novalidate>
+        <div class="form-field">
+          <label for="cart-name">Your name</label>
+          <input type="text" id="cart-name" name="name" autocomplete="name" required>
+        </div>
+
+        <fieldset class="order-type">
+          <legend>Order type</legend>
+          <label class="radio-tile"><input type="radio" name="order-type" value="Dine-in" checked><span>Dine-in</span></label>
+          <label class="radio-tile"><input type="radio" name="order-type" value="Pickup"><span>Pickup</span></label>
+          <label class="radio-tile"><input type="radio" name="order-type" value="Delivery"><span>Delivery</span></label>
+        </fieldset>
+
+        <div class="form-field" id="cart-address-field" hidden>
+          <label for="cart-address">Delivery address</label>
+          <textarea id="cart-address" name="address" rows="2"></textarea>
+        </div>
+
+        <div class="form-field">
+          <label for="cart-notes">Notes</label>
+          <textarea id="cart-notes" name="notes" rows="2" placeholder="Less spicy, no onions, anything else"></textarea>
+        </div>
+
+        <!-- TODO-PRICE: prices are placeholders, so no total is shown or sent. When menu.json carries real prices, unhide the total block and add the total line in buildOrderMessage(). -->
+        <div class="cart-total" id="cart-total" hidden>
+          <span>Total</span>
+          <strong id="cart-total-value">Rs. ---</strong>
+        </div>
+
+        <p class="form-error" id="cart-error" role="alert" aria-live="polite"></p>
+
+        <button class="btn btn-primary btn-block" id="cart-send" type="submit">
+          <svg class="icon" aria-hidden="true"><use href="#i-whatsapp"/></svg>
+          <span>Send order on WhatsApp</span>
+        </button>
+        <p class="form-footnote">Prices are confirmed by the restaurant when they receive your message.</p>
+      </form>
+    </div>
+  </aside>
+
+  <!-- ===== Lightbox ===== -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Photo viewer" hidden>
+    <button class="icon-button lightbox-close" id="lightbox-close" type="button" aria-label="Close photo viewer">
+      <svg class="icon" aria-hidden="true"><use href="#i-x"/></svg>
+    </button>
+    <button class="icon-button lightbox-prev" id="lightbox-prev" type="button" aria-label="Previous photo">
+      <svg class="icon" aria-hidden="true"><use href="#i-chevron-left"/></svg>
+    </button>
+    <figure>
+      <img id="lightbox-image" src="" alt="">
+      <figcaption id="lightbox-caption"></figcaption>
+    </figure>
+    <button class="icon-button lightbox-next" id="lightbox-next" type="button" aria-label="Next photo">
+      <svg class="icon" aria-hidden="true"><use href="#i-chevron-right"/></svg>
+    </button>
+  </div>
+
+  <!-- ===== Sticky mobile action bar ===== -->
+  <div class="mobile-bar" role="region" aria-label="Quick contact">
+    <a class="btn btn-secondary btn-block" data-phone-link="1" href="#">
+      <svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg>
+      <span>Call</span>
+    </a>
+    <a class="btn btn-primary btn-block" data-whatsapp-general href="#" target="_blank" rel="noopener">
+      <svg class="icon" aria-hidden="true"><use href="#i-whatsapp"/></svg>
+      <span>WhatsApp</span>
+    </a>
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>

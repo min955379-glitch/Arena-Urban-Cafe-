@@ -1,0 +1,562 @@
+{
+  "version": 1,
+  "updated": "2026-10-15",
+  "note": "Prices are placeholders (Rs. ---). Items with source=seed are dishes named in public reviews (see brief). Items with source=sample are structural placeholders and must be confirmed against the owner's real menu. Every item has a todo until the owner confirms it.",
+  "categories": [
+    {
+      "id": "soups",
+      "label": "Soups",
+      "items": [
+        {
+          "id": "chicken-corn-soup",
+          "name": "Chicken Corn Soup",
+          "description": "Classic chicken and corn soup.",
+          "price": "Rs. ---",
+          "popular": false,
+          "source": "sample",
+          "todo": "Confirm item and description against the real menu."
+        },
+        {
+          "id": "hot-and-sour-soup",
+          "name": "Hot & Sour Soup",
+          "description": "Spicy and tangy soup.",
+          "price": "Rs. ---",
+          "popular": false,
+          "source": "sample",
+          "todo": "Confirm item and description against the real menu."
+        },
+        {
+          "id": "thai-soup",
+          "name": "Thai Soup",
+          "description": "Thai style soup with chicken.",
+          "price": "Rs. ---",
+          "popular": false,
+          "source": "sample",
+          "todo": "Confirm item and description against the real menu."
+        }
+      ]
+    },
+    {
+      "id": "urban-special-deals",
+      "label": "Urban Special Burger & Pizza Deals",
+      "items": [
+        {
+          "id": "urban-burger-deal",
+          "name": "Urban Burger Deal",
+          "description": "Burger deal for two. Contents confirmed by the restaurant.",
+          "price": "Rs. ---",
+          "popular": true,
+          "source": "sample",
+          "todo": "Deal structure unconfirmed. Replace with the owner's real deals and contents."
+        },
+        {
+          "id": "urban-pizza-deal",
+          "name": "Urban Pizza Deal",
+          "description": "Pizza deal with sides and drinks. Contents confirmed by the restaurant.",
+          "price": "Rs. ---",
+          "popular": false,
+          "source": "sample",
+          "todo": "Deal structure unconfirmed. Replace with the owner's real deals and contents."
+        },
+        {
+          "id": "family-feast-deal",
+          "name": "Family Feast Deal",
+          "description": "Family size deal. Contents confirmed by the restaurant.",
+          "price": "Rs. ---",
+          "popular": false,
+          "source": "sample",
+          "todo": "Deal structure unconfirmed. Replace with the owner's real deals and contents."
+        }
+      ]
+    },
+    {
+      "id": "chinese",
+      "label": "Chinese",
+      "items": [
+        {
+          "id": "chicken-cashew",
+          "name": "Chicken Cashew",
+          "description": "Chicken stir fried with cashews.",
+          "price": "Rs. ---",
+          "popular": false,
+          "source": "seed",
+          "todo": "Seed dish named in public reviews. Confirm name, description and price with the owner."
+        },
+        {
+          "id": "beef-chilli-dry",
+          "name": "Beef Chilli Dry",
+          "description": "Dry style chilli beef.",
+          "price": "Rs. ---",
+          "popular": true,
+          "source": "seed",
+          "todo": "Seed dish named in public reviews. Confirm name, description and price with the owner."
+        },
+        {
+          "id": "sweet-and-sour-chicken",
+          "name": "Sweet & Sour Chicken",
+          "description": "Chicken in sweet and sour sauce.",
+          "price": "Rs. ---",
+          "popular": false,
+          "source": "sample",
+          "todo": "Confirm item and description against the real menu."
+        },
+        {
+          "id": "chicken-manchurian",
+          "name": "Chicken Manchurian",
+          "description": "Chicken in Manchurian sauce.",
+          "price": "Rs. ---",
+          "popular": false,
+          "source": "sample",
+          "todo": "Confirm item and description against the real menu."
+        }
+      ]
+    },
+    {
+      "id": "appetizers",
+      "label": "Appetizers",
+      "items": [
+        {
+          "id": "buffalo-wings",
+          "name": "Buffalo Wings",
+          "description": "Chicken wings with buffalo sauce.",
+          "price": "Rs. ---",
+          "popular": true,
+          "source": "seed",
+          "todo": "Seed dish named in public reviews. Confirm name, description and price with the owner."
+        },
+        {
+          "id": "loaded-fries",
+          "name": "Loaded Fries",
+          "description": "Fries loaded with sauce and toppings.",
+          "price": "Rs. ---",
+          "popular": true,
+          "source": "seed",
+          "todo": "Seed dish named in public reviews. Confirm name, description and price with the owner."
+        },
+        {
+          "id": "chicken-strips",
+          "name": "Chicken Strips",
+          "description": "Crispy chicken strips with dip.",
+          "price": "Rs. ---",
+          "popular": false,
+          "source": "sample",
+          "todo": "Confirm item and description against the real menu."
+        },
+        {
+          "id": "garlic-bread",
+          "name": "Garlic Bread",
+          "description": "Toasted garlic bread.",
+          "price": "Rs. ---",
+          "popular": false,
+          "source": "sample",
+          "todo": "Confirm item and description against the real menu."
+        }
+      ]
+    },
+    {
+      "id": "chopsuey-noodles",
+      "label": "Chopsuey & Noodles",
+      "items": [
+        {
+          "id": "chicken-chowmein",
+          "name": "Chicken Chowmein",
+          "description": "Stir fried noodles with chicken.",
+          "price": "Rs. ---",
+          "popular": true,
+          "source": "seed",
+          "todo": "Seed dish named in public reviews. Confirm name, description and price with the owner."
+        },
+        {
+          "id": "chicken-chopsuey",
+          "name": "Chicken Chopsuey",
+          "description": "Chicken chopsuey with vegetables.",
+          "price": "Rs. ---",
+          "popular": false,
+          "source": "sample",
+          "todo": "Confirm item and description against the real menu."
+        },
+        {
+          "id": "beef-hakka-noodles",
+          "name": "Beef Hakka Noodles",
+          "description": "Hakka style noodles with beef.",
+          "price": "Rs. ---",
+          "popular": false,
+          "source": "sample",
+          "todo": "Confirm item and description against the real menu."
+        }
+      ]
+    },
+    {
+      "id": "platters",
+      "label": "Platters",
+      "items": [
+        {
+          "id": "chinese-platter",
+          "name": "Chinese Platter",
+          "description": "Mixed Chinese platter. Contents confirmed by the restaurant.",
+          "price": "Rs. ---",
+          "popular": false,
+          "source": "sample",
+          "todo": "Platter contents unconfirmed. Replace with the owner's real platters."
+        },
+        {
+          "id": "bbq-platter",
+          "name": "BBQ Platter",
+          "description": "Mixed BBQ platter. Contents confirmed by the restaurant.",
+          "price": "Rs. ---",
+          "popular": false,
+          "source": "sample",
+          "todo": "Platter contents unconfirmed. Replace with the owner's real platters."
+        }
+      ]
+    },
+    {
+      "id": "salads",
+      "label": "Salads",
+      "items": [
+        {
+          "id": "russian-salad",
+          "name": "Russian Salad",
+          "description": "Creamy fruit and vegetable salad.",
+          "price": "Rs. ---",
+          "popular": false,
+          "source": "sample",
+          "todo": "Confirm item and description against the real menu."
+        },
+        {
+          "id": "caesar-salad",
+          "name": "Caesar Salad",
+          "description": "Chicken Caesar salad.",
+          "price": "Rs. ---",
+          "popular": false,
+          "source": "sample",
+          "todo": "Confirm item and description against the real menu."
+        },
+        {
+          "id": "green-salad",
+          "name": "Green Salad",
+          "description": "Fresh seasonal green salad.",
+          "price": "Rs. ---",
+          "popular": false,
+          "source": "sample",
+          "todo": "Confirm item and description against the real menu."
+        }
+      ]
+    },
+    {
+      "id": "pizza",
+      "label": "Pizza",
+      "items": [
+        {
+          "id": "urban-pizza",
+          "name": "Urban Pizza",
+          "description": "Signature house pizza.",
+          "price": "Rs. ---",
+          "popular": true,
+          "source": "seed",
+          "todo": "Seed dish named in public reviews. Confirm name, description and price with the owner."
+        },
+        {
+          "id": "pepperoni-pizza",
+          "name": "Pepperoni Pizza",
+          "description": "Classic pepperoni pizza.",
+          "price": "Rs. ---",
+          "popular": true,
+          "source": "seed",
+          "todo": "Seed dish named in public reviews. Confirm name, description and price with the owner."
+        },
+        {
+          "id": "chicken-fajita-pizza",
+          "name": "Chicken Fajita Pizza",
+          "description": "Fajita spiced chicken pizza.",
+          "price": "Rs. ---",
+          "popular": false,
+          "source": "sample",
+          "todo": "Confirm item and description against the real menu."
+        },
+        {
+          "id": "chicken-tikka-pizza",
+          "name": "Chicken Tikka Pizza",
+          "description": "Chicken tikka pizza.",
+          "price": "Rs. ---",
+          "popular": false,
+          "source": "sample",
+          "todo": "Confirm item and description against the real menu."
+        }
+      ]
+    },
+    {
+      "id": "burgers",
+      "label": "Burgers",
+      "items": [
+        {
+          "id": "jalapeno-burger",
+          "name": "Jalapeno Burger",
+          "description": "Burger with jalapenos and cheese.",
+          "price": "Rs. ---",
+          "popular": true,
+          "source": "seed",
+          "todo": "Seed dish named in public reviews. Confirm name, description and price with the owner."
+        },
+        {
+          "id": "zinger-burger",
+          "name": "Zinger Burger",
+          "description": "Crispy chicken zinger burger.",
+          "price": "Rs. ---",
+          "popular": true,
+          "source": "seed",
+          "todo": "Seed dish named in public reviews. Confirm name, description and price with the owner."
+        },
+        {
+          "id": "crispy-chicken-burger",
+          "name": "Crispy Chicken Burger",
+          "description": "Crispy chicken fillet burger.",
+          "price": "Rs. ---",
+          "popular": false,
+          "source": "sample",
+          "todo": "Confirm item and description against the real menu."
+        },
+        {
+          "id": "beef-burger",
+          "name": "Beef Burger",
+          "description": "Grilled beef patty burger.",
+          "price": "Rs. ---",
+          "popular": false,
+          "source": "sample",
+          "todo": "Confirm item and description against the real menu."
+        }
+      ]
+    },
+    {
+      "id": "sandwiches",
+      "label": "Sandwiches",
+      "items": [
+        {
+          "id": "club-sandwich",
+          "name": "Club Sandwich",
+          "description": "Triple layer club sandwich with fries.",
+          "price": "Rs. ---",
+          "popular": false,
+          "source": "sample",
+          "todo": "Confirm item and description against the real menu."
+        },
+        {
+          "id": "grilled-chicken-sandwich",
+          "name": "Grilled Chicken Sandwich",
+          "description": "Grilled chicken sandwich.",
+          "price": "Rs. ---",
+          "popular": false,
+          "source": "sample",
+          "todo": "Confirm item and description against the real menu."
+        }
+      ]
+    },
+    {
+      "id": "rice-corner",
+      "label": "Rice Corner",
+      "items": [
+        {
+          "id": "egg-fried-rice",
+          "name": "Egg Fried Rice",
+          "description": "Fried rice with egg.",
+          "price": "Rs. ---",
+          "popular": true,
+          "source": "seed",
+          "todo": "Seed dish named in public reviews. Confirm name, description and price with the owner."
+        },
+        {
+          "id": "chicken-fried-rice",
+          "name": "Chicken Fried Rice",
+          "description": "Fried rice with chicken.",
+          "price": "Rs. ---",
+          "popular": false,
+          "source": "sample",
+          "todo": "Confirm item and description against the real menu."
+        },
+        {
+          "id": "egg-garlic-rice",
+          "name": "Egg Garlic Rice",
+          "description": "Garlic fried rice with egg.",
+          "price": "Rs. ---",
+          "popular": false,
+          "source": "sample",
+          "todo": "Confirm item and description against the real menu."
+        }
+      ]
+    },
+    {
+      "id": "chicken-speciality",
+      "label": "Chicken Speciality",
+      "items": [
+        {
+          "id": "monterrey-chicken",
+          "name": "Monterrey Chicken",
+          "description": "House speciality chicken dish.",
+          "price": "Rs. ---",
+          "popular": true,
+          "source": "seed",
+          "todo": "Seed dish named in public reviews. Confirm name, description and price with the owner."
+        },
+        {
+          "id": "wild-mushroom-chicken",
+          "name": "Wild Mushroom Chicken",
+          "description": "Chicken with wild mushroom sauce.",
+          "price": "Rs. ---",
+          "popular": false,
+          "source": "seed",
+          "todo": "Seed dish named in public reviews. Confirm name, description and price with the owner."
+        },
+        {
+          "id": "chicken-parmesan",
+          "name": "Chicken Parmesan",
+          "description": "Baked chicken with parmesan.",
+          "price": "Rs. ---",
+          "popular": false,
+          "source": "sample",
+          "todo": "Confirm item and description against the real menu."
+        }
+      ]
+    },
+    {
+      "id": "sea-foods",
+      "label": "Sea Foods",
+      "items": [
+        {
+          "id": "fish-and-chips",
+          "name": "Fish & Chips",
+          "description": "Battered fish with fries.",
+          "price": "Rs. ---",
+          "popular": false,
+          "source": "sample",
+          "todo": "Confirm item and description against the real menu."
+        },
+        {
+          "id": "prawn-tempura",
+          "name": "Prawn Tempura",
+          "description": "Crispy prawn tempura with dip.",
+          "price": "Rs. ---",
+          "popular": false,
+          "source": "sample",
+          "todo": "Confirm item and description against the real menu."
+        }
+      ]
+    },
+    {
+      "id": "pasta",
+      "label": "Pasta",
+      "items": [
+        {
+          "id": "creamy-alfredo-pasta",
+          "name": "Creamy Alfredo Pasta",
+          "description": "Creamy Alfredo sauce pasta.",
+          "price": "Rs. ---",
+          "popular": true,
+          "source": "seed",
+          "todo": "Seed dish named in public reviews. Confirm name, description and price with the owner."
+        },
+        {
+          "id": "parmesan-pasta",
+          "name": "Parmesan Pasta",
+          "description": "Pasta with parmesan sauce.",
+          "price": "Rs. ---",
+          "popular": true,
+          "source": "seed",
+          "todo": "Seed dish named in public reviews. Confirm name, description and price with the owner."
+        },
+        {
+          "id": "chicken-mushroom-pasta",
+          "name": "Chicken Mushroom Pasta",
+          "description": "Pasta with chicken and mushroom.",
+          "price": "Rs. ---",
+          "popular": false,
+          "source": "seed",
+          "todo": "Seed dish named in public reviews. Confirm name, description and price with the owner."
+        }
+      ]
+    },
+    {
+      "id": "steaks",
+      "label": "Steaks",
+      "items": [
+        {
+          "id": "moroccan-steak",
+          "name": "Moroccan Steak",
+          "description": "House speciality steak with Moroccan spices.",
+          "price": "Rs. ---",
+          "popular": true,
+          "source": "seed",
+          "todo": "Seed dish named in public reviews. Confirm name, description and price with the owner."
+        },
+        {
+          "id": "beef-steak-mushroom-sauce",
+          "name": "Beef Steak with Mushroom Sauce",
+          "description": "Beef steak served with mushroom sauce.",
+          "price": "Rs. ---",
+          "popular": false,
+          "source": "sample",
+          "todo": "Confirm item and description against the real menu."
+        },
+        {
+          "id": "pepper-steak",
+          "name": "Pepper Steak",
+          "description": "Beef steak with pepper sauce.",
+          "price": "Rs. ---",
+          "popular": false,
+          "source": "sample",
+          "todo": "Confirm item and description against the real menu."
+        }
+      ]
+    },
+    {
+      "id": "cold-beverages",
+      "label": "Cold Beverages",
+      "items": [
+        {
+          "id": "mint-margarita",
+          "name": "Mint Margarita",
+          "description": "Fresh mint margarita mocktail.",
+          "price": "Rs. ---",
+          "popular": true,
+          "source": "seed",
+          "todo": "Seed drink named in public reviews. Confirm name, description and price with the owner."
+        },
+        {
+          "id": "chocolate-shake",
+          "name": "Chocolate Shake",
+          "description": "Thick chocolate shake.",
+          "price": "Rs. ---",
+          "popular": false,
+          "source": "seed",
+          "todo": "Shakes named in public reviews. Confirm flavors, descriptions and prices with the owner."
+        },
+        {
+          "id": "oreo-shake",
+          "name": "Oreo Shake",
+          "description": "Cookies and cream shake.",
+          "price": "Rs. ---",
+          "popular": false,
+          "source": "sample",
+          "todo": "Confirm item and description against the real menu."
+        },
+        {
+          "id": "strawberry-shake",
+          "name": "Strawberry Shake",
+          "description": "Strawberry milkshake.",
+          "price": "Rs. ---",
+          "popular": false,
+          "source": "sample",
+          "todo": "Confirm item and description against the real menu."
+        },
+        {
+          "id": "fresh-lime",
+          "name": "Fresh Lime",
+          "description": "Fresh lime drink.",
+          "price": "Rs. ---",
+          "popular": false,
+          "source": "sample",
+          "todo": "Confirm item and description against the real menu."
+        }
+      ]
+    }
+  ]
+}

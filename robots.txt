@@ -1,0 +1,7 @@
+# robots.txt for Urban Cafe & Restaurant sample site
+# TODO: update the Sitemap URL when the real domain exists.
+
+User-agent: *
+Allow: /
+
+Sitemap: https://urbancafe-abbottabad.netlify.app/sitemap.xml
